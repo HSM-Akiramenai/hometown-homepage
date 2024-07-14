@@ -1,0 +1,132 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+#hero-section {
+    background-image: url("/images/torshov.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 360px;
+    overflow: hidden;
+
+}
+
+.center-div {
+    margin: 0px auto;
+}
+
+#hero-section-div-1 {
+    background-color: #1D3557;
+    width: 180px;
+    padding: 6px 18px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+
+#hero-section h1, #hero-section h2 {
+    color: #F1FAEE;
+}
+
+#hero-section h1 {
+    font-size: large;
+}
+
+#hero-section-div-2 {
+    margin-top: 12px;
+    background-color: #457B9D;
+    width: 360px;
+    border-radius: 10px;
+    padding: 6px 18px;
+}
+
+#hero-section h2 {
+    font-size: small;
+}
+
+#activities-section h3 {
+    margin-top: 36px;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    overflow: hidden;
+    height: 420px ;
+    color: #1D3557;
+}
+
+#activities-div {
+ margin-top: 48px;
+ display: flex;
+ justify-content: space-around;
+}
+
+#activities-div img {
+    border-radius: 50%;
+}
+
+#activities-div div {
+    width: 200px;
+}
+
+#activities-div h4 {
+    margin-top: 24px;
+}
+
+#activities-div p {
+    margin-top: 18px;
+    font-size: small;
+}
+
+#guide-card {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: #A8DADC;
+    margin: 50px auto;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: #1D3557;
+    border-bottom: 5px solid #1D3557;
+}
+
+#guide-card img {
+    width: 180px;
+    height: 250px;
+}
+
+#guide-card h3 {
+    margin: 30px 0px 15px;
+}
+
+#guide-card p {
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#guide-card h4 {
+    font-size: small;
+}
+
