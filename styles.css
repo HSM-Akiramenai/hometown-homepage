@@ -26,7 +26,7 @@ h1, h2, h3, h4, p {
     background-image: url("/images/torshov.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     height: 360px;
     overflow: hidden;
 
